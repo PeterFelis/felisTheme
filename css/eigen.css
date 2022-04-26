@@ -1,0 +1,61 @@
+p {
+    font-size: 10pt;
+}
+
+
+.header {
+    width: 100%;
+    background: #111;
+    height: 50px;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    background: #e00;
+    height: 100px;
+}
+
+
+.finetune {
+    background-color: aliceblue;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.topmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+}
+
+
+.topmenu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.topmenu li a:hover {
+    color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+.archivepost {
+    background: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(235, 233, 233);
+    border-radius: 8px;
+    padding: 1.5rem;
+}
